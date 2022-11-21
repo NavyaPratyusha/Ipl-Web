@@ -1,0 +1,52 @@
+#player-info {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.image {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.image > img {
+    width: 450px;
+    box-shadow: 2px 2px 2px rgb(70, 63, 63);
+    border: 1px solid rgb(85, 77, 77);
+    border-radius: 5px;
+}
+
+
+.description {
+   width: 450px;
+   text-align: left;
+   color: #ac2e49;
+   margin-top: 1%;
+}
+
+.description > h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 5px;  
+}
+
+.description > h3 {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.description > h4 {
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.description > h3 > span,  h4 > span {
+    color: #79295e;  
+    opacity: 0.9;
+    margin-left: 5px;
+}

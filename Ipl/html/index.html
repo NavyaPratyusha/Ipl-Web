@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/team.css" />
+    <title>IPL CRICKET TEAMS</title>
+  </head>
+  <body>
+    <!-- header starts -->
+    <header id="top-bar">
+      <div class="logo-cover">
+        <a id="ipl-logo" href="../html/index.html">
+          <img src="../images/ipl.png" alt="img" width="125px" />
+        </a>
+      </div>
+      <div id="ipl-text">
+        <p>Indian Premier League</p>
+      </div>
+      <div id="search-box" style="visibility: visible">
+        <form id="form">
+          <i class="fas fa-search"></i>
+          <input
+            id="search-input"
+            placeholder="Search here"
+            type="text"
+            value="" />
+        </form>
+      </div>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+  
+          <div class="slide">
+            <img src="/images/RCB.webp" alt="" />
+          </div>
+          <div class="slide first">
+            <img src="/images/csk team.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/images/Rohit Sharma.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/images/MI1.webp" alt="" />
+          </div>
+  
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
+
+      <main>
+        <section id="main-section">
+          <h2 class="tittle">Teams List 2023</h2>
+          <div id="teams-container"></div>
+          <div id="search-result">
+            <h2>Search Results:</h2>
+            <div id="player-grid"></div>
+          </div>
+        </section>
+      </main>
+
+      <script src="/js/index.js"></script>
+  </body>
+</html>
